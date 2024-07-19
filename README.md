@@ -47,13 +47,13 @@ brew install nmap enscript parallel macchanger pv          # For macOS
 
 3. **Run the Script:**
    ```bash
-   ./nmap_auto_V2.sh
+   sudo ./nmap_auto_V2.sh
    ```
 
 4. **Follow the Prompts:**
+   - Choose whether to run the script as root.
    - Enter the network interface (e.g., eth0, wlan0).
    - Enter the target IP or web address.
-   - Choose whether to run the script as root.
    - Choose whether to run commands sequentially or in parallel.
    - Confirm before running each command if running sequentially.
 
