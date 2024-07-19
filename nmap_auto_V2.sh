@@ -191,6 +191,8 @@ script_end_time=$(date)
 echo -e "\e[1;34mLogs saved in logs/ directory\e[0m"
 echo -e "\e[1;34mScript completed at $script_end_time.\e[0m"
 
+echo "${random_color} Script executed successfully with blessing of Dark_Shadow04...${reset}\n"
+
 # Prompt user to rerun the script
 echo -e "\e[1;34mDo you want to rerun the script? (yes/no)\e[0m"
 read rerun_script
